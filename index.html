@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="functions.js"></script>
+  <title>Cv Nicolas Molina</title>
+</head>
+
+<body>
+
+  <h1> Nicolas Molina </h1>
+  <p>Me interesa mucho la tectonogia y siempre busco estar al dia con todo lo que este relacionado con eso.</p>
+  <ul id="link">
+    <li><a id="aHabilidades" href="">Habilidades y conocimiento </a> </li>
+    <li><a id="aEducacion" href="">Educación </a> </li>
+    <li><a id="aSocial" href="">Perfiles sociales </a> </li>
+    <li><a id="aContacto" href="">Contactar </a> </li>
+  </ul>
+
+  
+  <section id="habilidades">
+    <h2>Habilidades y conocimientos</h2>
+    <ul>
+      <li>Conocimiento basico sobre: HTML5, CSS, JavaScript</li>
+      <li>experiencia en el rubro de Atencion al cliente</li>
+    </ul>
+  </section>
+  <section id="educacion">
+    <h2>Educación</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Estudios</th>
+          <th>Finalizacion</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Escuela</td>
+          <td>Finalizado en el 2013</td>
+        </tr>
+        <tr>
+          <td>Liceo</td>
+          <td>Finalizado en el 2019</td>
+        </tr>
+        <tr>
+          <td>Estudio Univeritario</td>
+          <td>En proceso</td>
+        </tr>
+        <tr>
+          <td>Curso: Jovenes a Programar</td>
+          <td>En proceso</td>
+        </tr>
+        </tbody>
+    </table>
+  </section>
+  <section id="social">
+    <h2>Prefiles Sociales</h2>
+      <h4>También puedes encontrarme en:</h4>
+      <ul>
+        <li><a href="https://github.com/">Github</a></li>
+        <li><a href="https://twitter.com/">Twitter</a></li>
+        <li><a href="https://www.linkedin.com/">Linkedin</a></li>
+      </ul>
+  </section>
+  <section id="contacto">
+      <h2> Contactar </h1>
+        <div>
+          <form>
+            <label>Para:</label><input class="centrar" type="text" name="nombre"><br>
+            <label>Temática:</label><select class="centrar" name="tematica">
+              <option selected disabled>-- Elija un tema --</option>
+              <option>Consulta</option>
+              <option>Propuesta</option>
+              <option>Reporte</option>
+              <option>Otro</option>
+              </select><br>
+            <label for="asunto">Asunto:</label><input class="centrar" type="text" name="asunto"><br>
+            <label>Cuerpo:</label><textarea class="centrar" name="cuerpo"></textarea><br> 
+            <input id="enviar" type="submit" value="Enviar">
+          </form>
+        </div>
+    </section>
+</body>
+
+</html>
